@@ -2,349 +2,348 @@
     Maayasthra - Web agency
 ====================================== */
 /* font */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
 
 /* variable */
 :root {
-    /* --base-color: #BEFF01;  */
-    --base-color: #fe6d00;
-    /* --base-color: #0e3594;  */
-    --medium-gray: #6F7071;
-    /* --dark-gray:#1C1D1F;  */
-    --dark-gray: #0e3594;
-    /* --dark-gray:#fe6d00;  */
-    --alt-font: 'Inter', sans-serif;
-    --primary-font: 'Inter', sans-serif;
+  /* --base-color: #BEFF01;  */
+  --base-color: #fe6d00;
+  /* --base-color: #0e3594;  */
+  --medium-gray: #6f7071;
+  /* --dark-gray:#1C1D1F;  */
+  --dark-gray: #0e3594;
+  /* --dark-gray:#fe6d00;  */
+  --alt-font: "Inter", sans-serif;
+  --primary-font: "Inter", sans-serif;
 }
 
 body {
-    font-size: 17px;
-    line-height: 32px;
+  font-size: 17px;
+  line-height: 32px;
 }
 
 .top-space-margin {
-    margin-top: 120px;
+  margin-top: 120px;
 }
 
 /* header */
 .navbar .navbar-nav .nav-link {
-    font-weight: 500;
-    font-size: 18px;
+  font-weight: 500;
+  font-size: 18px;
 }
 
 header .navbar-brand img {
-    max-height: 23px;
+  /* max-height: 23px; */
+  max-height: 40px;
 }
 
-header .btn.btn-switch-text.btn-medium>span {
-    padding: 11px 30px;
+header .btn.btn-switch-text.btn-medium > span {
+  padding: 11px 30px;
 }
 
 .navbar .navbar-nav .dropdown.dropdown-with-icon .dropdown-menu li a img {
-    border-radius: 0;
+  border-radius: 0;
 }
 
 /* btn  */
 .btn.btn-base-color {
-    color: var(--dark-gray);
+  color: var(--dark-gray);
 }
 
 .btn.btn-box-shadow.btn-base-color:hover,
 .btn.btn-box-shadow.btn-base-color:active {
-    color: var(--dark-gray);
+  color: var(--dark-gray);
 }
 
 /* letter spacing */
 .bg-base-color-transparent {
-    background-color: rgba(204, 255, 0, 0.9);
+  background-color: rgba(204, 255, 0, 0.9);
 }
 
 /* banner title */
 .banner-title {
-    font-size: 275px;
-    word-break: normal;
-    letter-spacing: -10px;
+  font-size: 275px;
+  word-break: normal;
+  letter-spacing: -10px;
 }
 
 .stroke-text span.d-inline,
 .text-base-stroke-color {
-    color: white !important;
-    text-shadow: 0 0 4px #ff6000 !important;
+  color: white !important;
+  text-shadow: 0 0 4px #ff6000 !important;
 }
 
 /* letter spacing */
 .ls-minus-20px {
-    letter-spacing: -20px;
+  letter-spacing: -20px;
 }
 
 .ls-minus-13px {
-    letter-spacing: -13px;
+  letter-spacing: -13px;
 }
 
 .mt-minus-12 {
-    margin-top: -12%;
+  margin-top: -12%;
 }
 
 /* word break normal */
 .word-break-normal {
-    word-break: normal;
+  word-break: normal;
 }
 
 /* bg color */
 .bg-sherpa-blue {
-    background-color: #333436;
+  background-color: #333436;
 }
 
 /* page title */
 .page-title-extra-large h1 {
-    font-size: 5rem;
-    line-height: 5rem;
+  font-size: 5rem;
+  line-height: 5rem;
 }
 
 /* team style */
 .team-style-05 img {
-    /* filter: grayscale(100%);
+  /* filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
     -moz-filter: grayscale(100%); */
 }
 
 .team-style-05:hover img {
-    /* filter: grayscale(0%);
+  /* filter: grayscale(0%);
     -webkit-filter: grayscale(0%);
     -moz-filter: grayscale(0%); */
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .team-style-08 figure img {
-    /* filter: grayscale(100%);
+  /* filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
     -moz-filter: grayscale(100%); */
 }
 
 .team-style-08:hover figure img {
-    /* filter: grayscale(0%);
+  /* filter: grayscale(0%);
     -webkit-filter: grayscale(0%);
     -moz-filter: grayscale(0%); */
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .team-style-08 figure figcaption .social-icon a {
-    background-color: var(--base-color);
+  background-color: var(--base-color);
 }
 
 .team-style-08 figure figcaption .social-icon a:hover {
-    color: var(--dark-gray);
+  color: var(--dark-gray);
 }
 
 /* blog comment */
 .blog-classic .card .blog-image img {
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
-    -moz-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
 }
 
 .blog-comment li .btn-reply:hover {
-    color: var(--text-dark-gray);
+  color: var(--text-dark-gray);
 }
 
 /* tag */
 .tag-cloud a {
-    background-color: var(--white);
+  background-color: var(--white);
 }
 
 /* portfolio-image */
 .portfolio-simple .grid-item .portfolio-image img {
-    /* filter: grayscale(100%);
+  /* filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
     -moz-filter: grayscale(100%); */
 }
 
 .portfolio-simple .portfolio-box:hover .portfolio-image img {
-    opacity: 1;
-    filter: grayscale(0%);
-    -webkit-filter: grayscale(0%);
-    -moz-filter: grayscale(0%);
+  opacity: 1;
+  filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
 }
 
 /* popular post sidebar */
 .popular-post-sidebar li figure {
-    width: 190px;
-    height: auto;
+  width: 190px;
+  height: auto;
 }
 
 .popular-post-sidebar li .media-body {
-    padding-left: 40px;
+  padding-left: 40px;
 }
 
 /* social icon style 06 */
 .social-icon-style-06 li {
-    position: relative;
+  position: relative;
 }
 
 .social-icon-style-06 li:before {
-    width: 6px;
-    height: 6px;
-    border-radius: 100%;
-    background-color: var(--medium-gray);
-    content: "";
-    display: block;
-    position: absolute;
-    top: 50%;
-    right: -15px;
-    transform: translateY(-50%);
-    opacity: .5;
+  width: 6px;
+  height: 6px;
+  border-radius: 100%;
+  background-color: var(--medium-gray);
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: -15px;
+  transform: translateY(-50%);
+  opacity: 0.5;
 }
 
 .social-icon-style-06 li:last-child:before {
-    display: none;
+  display: none;
 }
 
 /* footer */
 footer .footer-logo img {
-    max-height: 40px;
+  max-height: 40px;
 }
 
 footer .nav-link {
-    color: var(--dark-gray);
+  color: var(--dark-gray);
 }
 
 .footer-navbar li a:hover {
-    color: var(--dark-gray);
+  color: var(--dark-gray);
 }
 
 /* media query responsive */
 @media (min-width: 992px) {
-    .navbar .navbar-nav .dropdown.dropdown-with-icon .dropdown-menu {
-        padding: 15px 25px;
-    }
+  .navbar .navbar-nav .dropdown.dropdown-with-icon .dropdown-menu {
+    padding: 15px 25px;
+  }
 }
 
 @media (min-width: 768px) {
+  /* heading tag */
+  h1 {
+    font-size: 5rem;
+    line-height: 5rem;
+  }
 
-    /* heading tag */
-    h1 {
-        font-size: 5rem;
-        line-height: 5rem;
-    }
+  h2 {
+    font-size: 3.75rem;
+    line-height: 3.75rem;
+  }
 
-    h2 {
-        font-size: 3.75rem;
-        line-height: 3.75rem;
-    }
-
-    h3 {
-        font-size: 3.125rem;
-        line-height: 3.125rem;
-    }
+  h3 {
+    font-size: 3.125rem;
+    line-height: 3.125rem;
+  }
 }
 
 @media (max-width: 1399px) {
-    .banner-title {
-        font-size: 500px;
-    }
+  .banner-title {
+    font-size: 500px;
+  }
 
-    header .btn.btn-switch-text.btn-medium>span {
-        padding: 11px 22px;
-    }
+  header .btn.btn-switch-text.btn-medium > span {
+    padding: 11px 22px;
+  }
 }
 
 @media (max-width: 1199px) {
-    .banner-title {
-        font-size: 188px;
-        letter-spacing: -5px;
+  .banner-title {
+    font-size: 188px;
+    letter-spacing: -5px;
+  }
 
-    }
+  .ls-minus-20px {
+    letter-spacing: -15px;
+  }
 
-    .ls-minus-20px {
-        letter-spacing: -15px;
-    }
+  header .btn.btn-switch-text.btn-medium > span {
+    padding: 6px 11px;
+  }
 
-    header .btn.btn-switch-text.btn-medium>span {
-        padding: 6px 11px;
-    }
+  .navbar .navbar-nav .nav-link {
+    padding: 10px 12px;
+  }
 
-    .navbar .navbar-nav .nav-link {
-        padding: 10px 12px;
-    }
-
-    footer .nav-link {
-        padding: 2px 8px;
-    }
+  footer .nav-link {
+    padding: 2px 8px;
+  }
 }
 
 @media (max-width: 991px) {
-    .banner-title {
-        font-size: 150px;
-        letter-spacing: -5px;
-    }
+  .banner-title {
+    font-size: 150px;
+    letter-spacing: -5px;
+  }
 
-    .ls-minus-20px {
-        letter-spacing: -10px;
-    }
+  .ls-minus-20px {
+    letter-spacing: -10px;
+  }
 
-    .top-space-margin {
-        margin-top: 100px;
-    }
+  .top-space-margin {
+    margin-top: 100px;
+  }
 
-    header .btn.btn-switch-text.btn-medium>span {
-        padding: 9px 24px;
-    }
+  header .btn.btn-switch-text.btn-medium > span {
+    padding: 9px 24px;
+  }
 }
 
 @media (max-width: 767px) {
-    .banner-title {
-        font-size: 200px;
-        letter-spacing: -15px;
-    }
+  .banner-title {
+    font-size: 200px;
+    letter-spacing: -15px;
+  }
 
-    .process-step-style-10.hover-box:hover .hover-content {
-        bottom: 0;
-    }
+  .process-step-style-10.hover-box:hover .hover-content {
+    bottom: 0;
+  }
 
-    .ls-minus-20px {
-        letter-spacing: -4px;
-    }
+  .ls-minus-20px {
+    letter-spacing: -4px;
+  }
 
-    .ls-minus-13px {
-        letter-spacing: -5px;
-    }
+  .ls-minus-13px {
+    letter-spacing: -5px;
+  }
 }
 
 @media (max-width: 575px) {
-    .banner-title {
-        font-size: 68px;
-        letter-spacing: -3px;
-        opacity: 0;
-    }
+  .banner-title {
+    font-size: 68px;
+    letter-spacing: -3px;
+    opacity: 0;
+  }
 
-    .popular-post-sidebar li figure {
-        width: 100%;
-    }
+  .popular-post-sidebar li figure {
+    width: 100%;
+  }
 
-    .popular-post-sidebar li .media-body {
-        padding-left: 0;
-        padding-top: 25px;
-    }
+  .popular-post-sidebar li .media-body {
+    padding-left: 0;
+    padding-top: 25px;
+  }
 }
 
 .text-justify {
-    text-align: justify;
+  text-align: justify;
 }
 
 .counter-number {
-    font-size: 1.7rem;
-    font-weight: 800;
-    color: var(--base-color);
+  font-size: 1.7rem;
+  font-weight: 800;
+  color: var(--base-color);
 }
 
 .text-grey {
-    color: var(--medium-gray);
+  color: var(--medium-gray);
 }
 
 .custom-gray {
-    background: #ececec;
+  background: #ececec;
 }
 
 .fs-35rem {
-    font-size: 3.5rem;
+  font-size: 3.5rem;
 }
